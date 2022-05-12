@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    color: ghostwhite;
+    background-color: gray;
+}
+.nav .nav-list{
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-list ul{
+    display: flex;
+    
+}
+.nav-list ul li{
+    list-style: none;
+    width: 150px;
+    padding: 15px;
+    margin: 15px;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: .8s ease-in-out;
+    cursor: pointer;
+}
+.nav-list ul li a:hover{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.right-btn{
+    display: flex;
+    float: right;
+    margin-top: -65px;
+    margin-right: 30px;
+}
+.right-btn button{
+    padding: 10px;
+    margin: 5px;
+    width: 80px;
+    text-transform: uppercase;
+    color: ghostwhite;
+    background-color: orange;
+    transition: .8s ease;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.right-btn button:hover{
+    background-color: red;
+    cursor: pointer;
+} 
+.main{
+    font-family: sans-serif;
+    margin-top: 81px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.right{
+    background-color: rgb(229, 222, 236);
+    width: 50%;
+    text-align: justify;
+}
+.right h1{
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+.right p{
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    width: 95%;
+    margin: 10px;
+    text-align: justify;
+    padding: 15px;
+}
+.left{
+    width: 50%;
+    text-align: justify;
+}
+.left img{
+    border-radius: 300px;
+    margin-left: 75px;
+    margin-top: 80px;
+}
+.footer marquee{
+    color: ghostwhite;
+    background-color: orange;
+    font-size: 20px;
+    font-family: cursive;
+    letter-spacing: 1.2px;
+    padding: 10px;
+}
+.footer p{
+    font-size: 19px;
+    color: ghostwhite;
+    background: gray;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1.2px;
+}
+.footer strong{
+    color: lightcyan;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
